@@ -1,0 +1,384 @@
+.main {
+  background-color: #eff0f5;
+  padding-bottom: 38px;
+  z-index: 999;
+}
+.bg_lightgrey {
+  background-color: #ececec;
+}
+.nav_links {
+  font-size: 12px;
+  color: black;
+  margin-left: 24px;
+  padding: 4px;
+}
+.nav_links:hover {
+  color: #f48954;
+  text-decoration: underline;
+}
+.active {
+  color: #f48954;
+}
+.container-fluid {
+  max-width: 1188px !important;
+}
+.nav_form {
+  background-color: #f5f5f5;
+}
+.nav_form_btn {
+  background-color: #f57224;
+}
+.signup_inner {
+  width: 810px;
+  margin: 50px auto 15px 145px;
+
+  line-height: 26px;
+}
+.signuptitle {
+  font-size: 22px;
+  font-weight: 400;
+  color: #424242;
+}
+.head_title {
+  font-size: 22px;
+  color: #424242;
+}
+
+.signup_btn {
+  background-color: #f57224;
+  border: #f57224;
+}
+.signup_btn:hover {
+  background-color: #f57224;
+}
+.sign_email {
+  border: 1px solid #f57224;
+  color: #f57224;
+}
+.sign_email:hover {
+  background-color: #f57224;
+  border: 1px solid #f57224;
+}
+.fb_btn {
+  background-color: #3b5998;
+  border: 1px solid #3b5998;
+}
+.go_btn {
+  background-color: #d34836;
+  border: 1px solid #d34836;
+}
+.footer_1 {
+  background: #2e2e54;
+  padding: 22px 0 30px;
+  color: #fff;
+}
+.footer1_inner ul li {
+  list-style: none;
+}
+.footer1_inner ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+.footer1_inner ul li a:hover {
+  text-decoration: underline;
+}
+.footer1_inner h3 {
+  font-size: 20px;
+}
+.footer2_title {
+  font-size: 18px;
+  color: #333;
+}
+.payments_images img {
+  width: 50px;
+  height: 40px;
+  margin: 0 8px 11px 0;
+}
+.fa-facebook-f {
+  color: #3b5a9a;
+  border: 2px solid #3b5a9a;
+}
+.fa-twitter {
+  color: #4dc8f2;
+  border: 2px solid #4dc8f2;
+}
+.fa-instagram {
+  color: #d53982;
+  border: 2px solid #d53982;
+}
+.fa-youtube {
+  color: #ce332c;
+  border: 2px solid #ce332c82;
+}
+.fa-dailymotion {
+  color: #5d5d5d;
+  border: 2px solid #5d5d5d;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px !important;
+  height: 10px !important;
+}
+.main_home {
+  background-color: #f5f5f5;
+  padding-top: 140px;
+}
+.card_channels {
+  border-radius: 20px;
+}
+.channel_image {
+  width: 32px;
+  height: 32px;
+  margin: 4px;
+}
+.card_channels_inner {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+}
+.card_channels_inner:hover .card_channels {
+  color: #50b766;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.card_channels_inner:hover .mens {
+  color: #feda00;
+}
+.card_channels_inner:hover .none {
+  color: #000000;
+}
+.item_image {
+  width: 188px;
+  height: 188px;
+}
+.item_title {
+  height: 36px;
+  line-height: 18px;
+  color: #212121;
+  overflow: hidden;
+  font-weight: 500;
+  font-size: 14px;
+}
+.item_price {
+  margin-bottom: 4px;
+  font-size: 18px;
+  color: #f85606;
+  height: 22px;
+}
+.fs-origin-price {
+  color: #9e9e9e;
+  text-decoration: line-through;
+  font-size: 12px;
+}
+.fs-discount {
+  color: #212121;
+  margin-left: 4px;
+  font-size: 14px;
+}
+.item_inner {
+  text-decoration: none;
+}
+.shadow_effect:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.form-control:focus{
+  box-shadow: none;
+  border: 1px solid #CED4DA;
+}
+.company_logo {
+  width: 52px;
+  height: 52px;
+  background-color: #fff;
+  padding: 4px;
+  position: relative;
+  margin-top: -25px;
+  overflow: hidden;
+}
+.daraz_mall_inner {
+  text-decoration: none;
+}
+.card-official-stores-h1 {
+  font-size: 14px;
+  color: #212121;
+  margin: 8px 8px 4px;
+}
+.card-official-stores-p {
+  font-size: 12px;
+  line-height: 14px;
+  color: #9e9e9e;
+  margin: 0 8px;
+}
+
+/* Category CSS */
+.category_image_container img {
+  width: 80px;
+  height: 80px;
+}
+.category_image_container p {
+  font-size: 12px;
+  color: #333;
+}
+.fa-star {
+  font-size: 8px;
+  color: #faca51;
+}
+.rating_comments {
+  font-size: 12px;
+  color: #9e9e9e;
+}
+
+.shop_btn {
+  border: 1px solid #f57224;
+  color: #f57224;
+  font-size: 14px;
+}
+.footer_3 {
+  background-color: #f1f1f1;
+}
+.footer3_inner h4 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 0 10px;
+  color: #606060;
+}
+.d_intro {
+  font-size: 11px;
+  color: #606060;
+  line-height: 16px;
+}
+.footer3_inner h2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 0 10px;
+  color: #606060;
+}
+.footer_anchor_header{
+  color: #606060;
+}
+.footer_anchor_header:hover{
+  text-decoration: underline;
+}
+
+/* Mobiles Query */
+
+
+@media only screen and (max-width: 767px) {
+  .daraz_logo {
+    width: 50% !important;
+  }
+  .offer_image {
+    width: 50% !important;
+    margin-top: 25px;
+  }
+  .offer_image_aligment {
+    text-align: center !important;
+  }
+  .signup_inner {
+    width: 100%;
+    margin: 0px;
+    line-height: 26px;
+  }
+  .signup_main {
+    padding-top: 20px;
+  }
+  .signuptitle {
+    font-size: 20px;
+  }
+  .Download_here {
+    flex-direction: column;
+  }
+  .Download_here a img {
+    margin: 15px;
+  }
+  .fa-cart-shopping {
+    display: none !important;
+  }
+  .navbar-brand {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .QR_image {
+    width: 40%;
+  }
+  .navbar-expand-lg {
+    flex-direction: column;
+  }
+  .card_channels_direction {
+    flex-direction: column;
+  }
+  .shadow_effect{
+    text-align: center;
+
+  }
+  .inner_daraz_mall_card {
+    width: 51.5%;
+    margin-left: 89px;
+    margin-bottom: 25px;
+}
+.item_details {
+  padding: 46px !important;
+}
+.main_home {
+  padding-top: 270px;
+}
+.head_title{
+  padding: 20px;
+  text-align: center;
+}
+}
+
+/* Tablets Media Query */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .signup_inner {
+    width: 100%;
+    margin: 0px;
+    line-height: 26px;
+  }
+  .signup_main {
+    padding-top: 30px;
+  }
+  .navbar-expand-lg {
+    flex-direction: column;
+  }
+  .offer_image {
+    width: 50% !important;
+    margin-top: 25px;
+  }
+  .offer_image_aligment {
+    text-align: center !important;
+  }
+  .navbar-brand {
+    padding-bottom: 20px;
+  }
+  .card_channels_direction {
+    flex-direction: column;
+  }
+  .shadow_effect{
+    text-align: center;
+  }
+  .inner_daraz_mall_card{
+    width: 49%;
+    margin-left: 99px;
+    margin-bottom: 25px;
+  }
+  .main_home {
+    background-color: #f5f5f5;
+    padding-top: 290px;
+  }
+  .item_details{
+    padding: 25px !important;
+  }
+  .verify_image{
+    width: 25%;
+  }
+  .head_title{
+    padding: 20px;
+    text-align: center;
+  }
+}
+
